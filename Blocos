@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadros Editáveis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 80%;
+            max-width: 800px;
+        }
+        .box {
+            width: 100%;
+            height: 100px;
+            background: white;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+        <textarea class="box"></textarea>
+    </div>
+</body>
+</html>
